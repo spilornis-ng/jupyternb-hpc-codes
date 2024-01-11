@@ -14,7 +14,7 @@ Codes to run Jupyter Notebook via HPC tunneling
 
 #You can now start a Jupyter notebook session using the following code
 
-[user@node02 ~]$ Jupyter notebook --no-browser --port=<portno> --ip=$(hostname -i) 
+[user@node02 ~]$ jupyter notebook --no-browser --port=<portno> --ip=$(hostname -i) 
 
 #Here you can assign any port no which you want to tunnel via (for example, 8800). However, if the port is busy then the notebook will start with next available port no. You can note the portno from the on screen dialogue
 
